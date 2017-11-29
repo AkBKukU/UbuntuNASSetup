@@ -8,15 +8,20 @@ Edit the file `/etc/default/grub`:
 
 `sudo nano /etc/default/grub`
 
+-------------------------------------------------------------------------------
 
 Change the `"quiet splash"` on the following line to `"text"`:
 
 `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"`
 
+-------------------------------------------------------------------------------
+
 
 Update the boot configuration with:
 
 `sudo update-grub`
+
+-------------------------------------------------------------------------------
 
 
 Set `systemd` to the multi-user run level:
