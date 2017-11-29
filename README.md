@@ -26,6 +26,7 @@ sudo systemctl enable multi-user.target --force
 sudo systemctl set-default multi-user.target
 ```
 
+The GUI can be started at any time by running `startx` when logged in.
 
 
 ## SFTP
